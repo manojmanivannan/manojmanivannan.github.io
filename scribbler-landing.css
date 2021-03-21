@@ -60,6 +60,7 @@ nav {
 .feature__item .section__title {
   /*max-width: calc(80%);*/
   flex: 75%;
+  text-align: left;
 }
 
 .feature__item .section__duration {
@@ -76,6 +77,56 @@ nav {
 .feature__item p {
   margin-top: 0.5rem;
 }
+
+.imgContainer {
+  /*background: #eee no-repeat 50% 50% /cover;*/
+  overflow: hidden;
+  height: 10%;
+
+
+}
+
+.imgContainer > img {
+  /*opacity: 0;*/
+  width: 50%;
+  float: left;
+  display: block;
+  transition: opacity .3s ease-in-out;
+  cursor: pointer;
+  position: relative;
+  vertical-align: top;
+  transition: transform 0.25s ease;
+  padding: 2rem 2rem 2rem 2rem;
+}
+
+/*.imgContainer > img.visible {
+  opacity: 1;
+}*/
+
+.imgContainer > img:hover {
+    -webkit-transform:scale(1.07); /* or some other value */
+    transform:scale(1.07);
+    height: 20%;
+}
+
+.imgContainer .target {
+margin: auto;
+/*position: absolute;
+top: 0;
+left:0;
+right:0;
+bottom: 0;*/
+/*max-height: 0%;*/
+/*max-width: 0%;*/
+border: 3px solid white;
+/*box-shadow: 0px 0px 8px rgba(0,0,0,.3);*/
+box-sizing: border-box;
+-webkit-transition: .5s ease-in-out;
+-moz-transition: .5s ease-in-out;
+-o-transition: .5s ease-in-out;
+transition: .5s ease-in-out;
+}
+
 
 /* keybinding section */
 .keybinding {
