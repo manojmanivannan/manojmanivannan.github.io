@@ -96,7 +96,7 @@ nav {
   position: relative;
   vertical-align: top;
   transition: transform 0.25s ease;
-  padding: 2rem 2rem 2rem 2rem;
+  padding: 1rem 1rem 1rem 1rem;
 }
 
 
@@ -146,6 +146,7 @@ transition: .5s ease-in-out;
   background-color: rgb(255, 255, 255); /* Fallback color */
   background-color: rgba(245, 245, 245, 0.95); /* Black w/ opacity */
 }
+
 
 /* Modal Content (Image) */
 .modal-content {
