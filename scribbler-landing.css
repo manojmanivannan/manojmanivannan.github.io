@@ -215,19 +215,21 @@ transition: .5s ease-in-out;
 .keybinding {
   margin-top: 3rem;
   display: flex;
+  justify-content: center
+
 }
 
 .keybinding__detail {
   position: relative;
   border: 1px solid var(--code-bg-color);
-  flex-basis: 50%;
+  flex-basis: 60%;
   padding: 2rem 1rem 1rem 1rem;
   list-style: none;
-  line-height: 2rem;
+  line-height: 2.5rem;
 }
 
 .keybinding__detail:first-child {
-  text-align: right;
+  text-align: left;
   padding-right: 1rem;
 }
 
@@ -238,7 +240,7 @@ transition: .5s ease-in-out;
 
 .keybinding__detail:first-child .keybinding__title {
   position: absolute;
-  right: 0.5rem;
+  left: 0.5rem;
   top: -2rem;
   background-color: white;
   padding: 0 0.5rem;
@@ -327,3 +329,4 @@ transition: .5s ease-in-out;
     font-size: 0.8rem;
   }
 }
+
