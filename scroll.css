@@ -28,8 +28,8 @@
   }
   
   .inline-photo.is-visible:hover {
-    -webkit-transform:scale(1.07) rotateZ(1deg);  
-            transform:scale(1.08) rotateZ(1deg);
+    -webkit-transform:scale(1.05) rotateZ(1deg);  
+            transform:scale(1.06) rotateZ(1deg);
     opacity: 0.7;
   }
   
