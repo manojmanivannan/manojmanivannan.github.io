@@ -13,7 +13,7 @@ var getAll = function (selector, scope) {
 if (document.getElementsByClassName('demo').length > 0) {
   var i = 0;
   var txt = `Hello World! Welcome to my online profile.
-  I am a Data Analyst Engineer based out of Italy and actively exploring opportunities in data science. I am passionate about AI and Machine learning.`;
+  I am a Data Analyst Engineer based out of Italy and actively exploring opportunities in data science and data engineering. I am passionate about Analytics, AI and Machine learning.`;
   var speed = 50;
 
   function typeItOut () {
