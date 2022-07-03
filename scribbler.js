@@ -12,8 +12,7 @@ var getAll = function (selector, scope) {
 // setup typewriter effect in the terminal demo
 if (document.getElementsByClassName('demo').length > 0) {
   var i = 0;
-  var txt = `Hello World! Welcome to my online profile.
-  I am a Data Analyst Engineer based out of Italy and actively exploring opportunities in data science and data engineering. I am passionate about Analytics, AI and Machine learning.`;
+  var txt = `Hello World! Welcome to my online profile.`;
   var speed = 50;
 
   function typeItOut () {

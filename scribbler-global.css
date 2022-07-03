@@ -21,6 +21,10 @@ html, body {
   background-color: white;
 }
 
+.hero h1 {
+  color: rgb(233, 66, 15);
+}
+
 p {
   font-weight: 300;
   color: #4A4A4A;
@@ -48,6 +52,9 @@ hr {
   color: var(--primary-color);
 }
 
+.section__title h3 {
+  color: rgb(233, 66, 15);
+}
 /* tabs */
 .tab__container {
   position: relative;
